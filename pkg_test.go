@@ -41,9 +41,9 @@ func TestHostStat(t *testing.T) {
 	assertNotError(t, err)
 	t.Log(memStat)
 
-	diskStat, err := GetDiskStat()
-	assertNotError(t, err)
-	t.Log(diskStat)
+	// diskStat, err := GetDiskStat()
+	// assertNotError(t, err)
+	// t.Log(diskStat)
 
 	ioStat, err := GetIOStat()
 	if err != nil {
